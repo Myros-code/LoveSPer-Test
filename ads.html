@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="assets/css/dark.css">
+    </noscript>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>LoveSPer</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header__wrapper wrapper">
+            <div class="header__inner inner">
+                <div class="header__content">
+                    <div class="logo_and_mob-menu">
+                        <div class="logo header-logo header-logo__desc"> 
+                            <div class="header-logo__inner logo__inner">
+                                <a href="./index.html" class="header-logo__link logo__link">
+                                    <img id = 'headerLogoImg' class="header-logo__img logo__img" src="../assets/images/All/logo--dark.png" alt="LoveSPer logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-mob">
+                            <div class="logo header-logo header-mob__logo"> 
+                                <div class="header-logo_inner logo_inner">
+                                    <a href="#!" class="header-logo_link logo_link">
+                                        <img class="header-logo_img logo_img" src="../assets/images/All/logo-mob.png" alt="LoveSPer logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-btn__box header__theme-btn_mob theme-btn__box mob-block-sm">
+                                <div class="header-btn theme-btn">
+                                    <label class="theme-btn__label" id = "theme-button">
+                                        <input class="theme-btn__checkbox" type="checkbox">
+                                        <span class="theme-btn__slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mob-menu-btn__block mob-block-md">
+                                <div class="mob-menu-btn__inner">
+                                    <div class="mob-menu__btn" id="openMobMenu">
+                                        <svg class="mob-menu__btn-img" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="8" fill="url(#paint20_linear)"/>
+                                            <path class="mob-menu__btn-img_path" d="M8.16954 12.9389H26.5862C26.9251 12.9389 27.2001 12.6638 27.2001 12.325C27.2001 11.9861 26.925 11.7111 26.5862 11.7111H8.16954C7.83066 11.7111 7.55566 11.9862 7.55566 12.325C7.55566 12.6638 7.83071 12.9389 8.16954 12.9389Z" fill="white"/>
+                                            <path class="mob-menu__btn-img_path" d="M26.5862 16.0084H8.16954C7.83066 16.0084 7.55566 16.2834 7.55566 16.6222C7.55566 16.9611 7.83071 17.2361 8.16954 17.2361H26.5862C26.9251 17.2361 27.2001 16.9611 27.2001 16.6222C27.2001 16.2834 26.9251 16.0084 26.5862 16.0084Z" fill="white"/>
+                                            <path class="mob-menu__btn-img_path" d="M26.586 20.3055H14.3082C13.9693 20.3055 13.6943 20.5806 13.6943 20.9194C13.6943 21.2583 13.9694 21.5333 14.3082 21.5333H26.586C26.9249 21.5333 27.1998 21.2582 27.1998 20.9194C27.1999 20.5805 26.9249 20.3055 26.586 20.3055Z" fill="white"/>
+                                            <defs>
+                                            <linearGradient id="paint20_linear" x1="15.1592" y1="-15.725" x2="59.3249" y2="8.98135" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0.0434489" stop-color="#D3478B"/>
+                                            <stop offset="1" stop-color="#5A09AB"/>
+                                            </linearGradient>
+                                            </defs>
+                                        </svg>                                                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-nav">
+                        <nav class="header-nav__inner">
+                            <div class="header-nav__item profiles-nav__item">
+                                <div class="header-nav__item-inner profiles-nav__item-inner ">
+                                    <a class="header-nav__item-link profiles-nav__item-link" href="#">
+                                        <svg class="header-nav__item-img" width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="header-nav__img-path" d="M15 7.5C15 3.36426 11.6357 0 7.5 0C3.36426 0 0 3.36426 0 7.5C0 10.9927 2.40188 13.9278 5.63928 14.7575C5.98845 14.847 6.25 15.151 6.25 15.5114C6.25 15.9193 5.91933 16.25 5.51142 16.25H5C4.30964 16.25 3.75 16.8096 3.75 17.5C3.75 18.1904 4.30964 18.75 5 18.75H5.625C5.97018 18.75 6.25 19.0298 6.25 19.375C6.25 19.7202 6.52982 20 6.875 20H8.125C8.47018 20 8.75 19.7202 8.75 19.375C8.75 19.0298 9.02982 18.75 9.375 18.75H10C10.6904 18.75 11.25 18.1904 11.25 17.5C11.25 16.8096 10.6904 16.25 10 16.25H9.48858C9.08067 16.25 8.75 15.9193 8.75 15.5114C8.75 15.151 9.01155 14.847 9.36072 14.7575C12.5981 13.9278 15 10.9927 15 7.5ZM2.5 7.5C2.5 4.74304 4.74304 2.5 7.5 2.5C10.257 2.5 12.5 4.74304 12.5 7.5C12.5 10.257 10.257 12.5 7.5 12.5C4.74304 12.5 2.5 10.257 2.5 7.5Z" fill="url(#paint0_linear)"/>
+                                            <defs>
+                                            <linearGradient id="paint0_linear" x1="6.6879" y1="-9.25" x2="28.4411" y2="-0.123421" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0.0434489" stop-color="#D3478B"/>
+                                            <stop offset="1" stop-color="#5A09AB"/>
+                                            </linearGradient>
+                                            </defs>
+                                        </svg>                                        
+                                        <span class="header-nav__item-text profiles-nav__item-text">profiles</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-nav__item ads-nav__item">
+                                <div class="header-nav__item-inner ads-nav__item-inner ">
+                                    <a class="header-nav__item-link ads-nav__item-link" href="./escort-profile.html">
+                                        <svg class="header-nav__item-img" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="header-nav__img-path" d="M0.145075 18.1859C0.288473 18.7632 0.866871 18.8932 1.40731 19.0691C2.16535 19.3161 2.94913 19.4875 3.73471 19.6267C5.52431 19.9433 7.37476 20.084 9.1912 19.9486C10.0407 19.885 10.8022 19.7057 11.421 19.0861C11.9018 18.6038 11.8742 17.5251 11.92 16.9016C12.0478 15.1487 11.8753 13.4671 12.38 11.7614C12.568 11.1247 12.7719 9.87053 13.4077 9.53074C13.868 9.28496 14.0151 9.29779 14.165 9.78431C14.2841 10.1761 14.356 10.5847 14.4237 10.9887C14.7317 12.8478 15.1136 19.3173 15.1136 19.5094C15.1136 19.6706 15.767 19.5352 15.8554 19.4909C16.1792 19.3264 15.9689 18.1746 15.9689 17.8705C15.9689 16.9266 15.9852 15.9848 16.0258 15.0425C16.104 13.1736 16.2779 11.3034 16.5561 9.45226C16.7006 8.49377 16.8769 7.5413 17.0924 6.59665C17.1942 6.15562 17.2994 5.71451 17.4049 5.27312C17.4416 5.11927 17.4655 4.95368 17.4806 4.79009C17.5454 4.08546 17.4464 3.35249 17.0493 2.76677C16.5038 1.96332 15.8211 1.26127 15.0755 0.642801C15.0437 0.61635 15.0118 0.589697 14.9798 0.562964C14.5853 0.233467 14.0758 -0.0709726 13.8115 0.369771C12.9293 1.8389 11.8437 3.18287 11.0547 4.70698C10.2077 6.3421 9.6418 8.13358 8.71702 9.72648C8.2529 10.5253 7.70892 10.9705 6.80076 11.1627C6.40877 11.2467 6.04235 11.3701 5.70224 11.5866C5.37839 11.792 5.14242 12.1022 4.80642 12.2883C3.41256 13.0569 1.38165 12.6333 0.245059 13.9482C-0.202444 14.4659 0.094045 15.2765 0.123246 15.8974C0.159167 16.6142 -0.0284195 17.4948 0.145075 18.1859Z" fill="url(#paint0_linear)"/>
+                                            <defs>
+                                                <linearGradient id="paint0_linear" x1="7.80405" y1="-9.24999" x2="31.8842" y2="2.53897" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>  
+                                        <span class="header-nav__item-text ads-nav__item-text">ads</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="header-nav__item agencies-nav__item">
+                                <div class="header-nav__item-inner agencies-nav__item-inner ">
+                                    <a class="header-nav__item-link agencies-nav__item-link" href="./agencies.html">
+                                        <svg class="header-nav__item-img" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="header-nav__img-path" d="M0 2.7C0 1.20883 1.20883 0 2.7 0H5.4C6.89117 0 8.1 1.20883 8.1 2.7V5.4C8.1 6.89117 6.89117 8.1 5.4 8.1H2.7C1.20883 8.1 0 6.89117 0 5.4V2.7Z" fill="url(#paint1_linear)"/>
+                                            <path class="header-nav__img-path" d="M9.9 2.7C9.9 1.20883 11.1088 0 12.6 0H15.3C16.7912 0 18 1.20883 18 2.7V5.4C18 6.89117 16.7912 8.1 15.3 8.1H12.6C11.1088 8.1 9.9 6.89117 9.9 5.4V2.7Z" fill="url(#paint2_linear)"/>
+                                            <path class="header-nav__img-path" d="M0 12.6C0 11.1088 1.20883 9.9 2.7 9.9H5.4C6.89117 9.9 8.1 11.1088 8.1 12.6V15.3C8.1 16.7912 6.89117 18 5.4 18H2.7C1.20883 18 0 16.7912 0 15.3V12.6Z" fill="url(#paint3_linear)"/>
+                                            <path class="header-nav__img-path" d="M9.9 13.95C9.9 11.7132 11.7132 9.9 13.95 9.9C16.1868 9.9 18 11.7132 18 13.95C18 16.1868 16.1868 18 13.95 18C11.7132 18 9.9 16.1868 9.9 13.95Z" fill="url(#paint4_linear)"/>
+                                            <defs>
+                                                <linearGradient id="paint1_linear" x1="8.02548" y1="-8.325" x2="31.4073" y2="4.75483" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear" x1="8.02548" y1="-8.325" x2="31.4073" y2="4.75483" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear" x1="8.02548" y1="-8.325" x2="31.4073" y2="4.75483" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint4_linear" x1="8.02548" y1="-8.325" x2="31.4073" y2="4.75483" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                        <span class="header-nav__item-text agencies-nav__item-text">agencies</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="header-nav__item location-nav__item">
+                                <div class="header-nav__item-inner location-nav__item-inner ">
+                                    <a class="header-nav__item-link location-nav__item-link" href="./login.html">
+                                        <svg class="header-nav__item-img" width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="header-nav__img-path" d="M12.7973 3.4249C11.5835 1.33021 9.42758 0.0504882 7.03013 0.00158203C6.92778 -0.000527343 6.82478 -0.000527343 6.72239 0.00158203C4.32497 0.0504882 2.16904 1.33021 0.95521 3.4249C-0.285492 5.56599 -0.319437 8.13786 0.86439 10.3047L5.82388 19.3823C5.8261 19.3863 5.82833 19.3904 5.83064 19.3943C6.04884 19.7736 6.43974 20 6.87634 20C7.3129 20 7.7038 19.7736 7.92196 19.3943C7.92427 19.3904 7.92649 19.3863 7.92872 19.3823L12.8882 10.3047C14.072 8.13786 14.038 5.56599 12.7973 3.4249ZM6.87626 9.06251C5.32544 9.06251 4.06376 7.80083 4.06376 6.25001C4.06376 4.69919 5.32544 3.43752 6.87626 3.43752C8.42708 3.43752 9.68876 4.69919 9.68876 6.25001C9.68876 7.80083 8.42712 9.06251 6.87626 9.06251Z" fill="url(#paint5_linear)"/>
+                                            <defs>
+                                                <linearGradient id="paint5_linear" x1="6.1317" y1="-9.25" x2="26.5633" y2="-1.39079" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                        <span class="header-nav__item-text location-nav__item-text">location</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        </nav>
+                    </div>
+    
+                    <div class="header-btns">
+                        <div class="header-btns__inner">
+    
+                            <div class="header-btn__box notifications-btn__box">
+                                <div class="header-btn notifications-btn">
+                                    <a class="header-btn__link notifications-btn__link" href="#">
+                                        <svg class="header-btn__img" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="header-btn__img-path" d="M22.5729 11.1979C22.1416 11.1979 21.7916 10.8479 21.7916 10.4166C21.7916 7.42493 20.6272 4.61349 18.5125 2.49786C18.2073 2.19269 18.2073 1.69792 18.5125 1.39275C18.8177 1.08757 19.3124 1.08757 19.6178 1.39275C22.0272 3.80306 23.3541 7.00836 23.3541 10.4166C23.3541 10.8479 23.0041 11.1979 22.5729 11.1979Z" fill="url(#paint6_linear)"/>
+                                            <path class="header-btn__img-path" d="M1.21875 11.1979C0.787498 11.1979 0.4375 10.8479 0.4375 10.4166C0.4375 7.00836 1.76463 3.80306 4.17495 1.3937C4.48013 1.08852 4.97508 1.08852 5.28026 1.3937C5.58543 1.69888 5.58543 2.19383 5.28026 2.49901C3.16463 4.61349 2 7.42493 2 10.4166C2 10.8479 1.65 11.1979 1.21875 11.1979Z" fill="url(#paint7_linear)"/>
+                                            <path class="header-btn__img-path" d="M11.8959 25C9.74174 25 7.98965 23.2479 7.98965 21.0938C7.98965 20.6625 8.33964 20.3125 8.7709 20.3125C9.20215 20.3125 9.55215 20.6625 9.55215 21.0938C9.55215 22.3866 10.6031 23.4375 11.8959 23.4375C13.1885 23.4375 14.2396 22.3866 14.2396 21.0938C14.2396 20.6625 14.5896 20.3125 15.0209 20.3125C15.4521 20.3125 15.8021 20.6625 15.8021 21.0938C15.8021 23.2479 14.0501 25 11.8959 25Z" fill="url(#paint8_linear)"/>
+                                            <path class="header-btn__img-path" d="M20.4896 21.875H3.30215C2.29678 21.875 1.4791 21.0573 1.4791 20.0521C1.4791 19.5187 1.71142 19.0136 2.11673 18.6666C3.70097 17.3281 4.6041 15.3824 4.6041 13.3209V10.4166C4.6041 6.39591 7.87501 3.125 11.8959 3.125C15.9166 3.125 19.1875 6.39591 19.1875 10.4166V13.3209C19.1875 15.3824 20.0906 17.3281 21.6646 18.6594C22.0802 19.0136 22.3125 19.5187 22.3125 20.0521C22.3125 21.0573 21.4948 21.875 20.4896 21.875ZM11.8959 4.6875C8.73637 4.6875 6.1666 7.25727 6.1666 10.4166V13.3209C6.1666 15.8426 5.06149 18.224 3.13544 19.8521C3.09901 19.8833 3.0416 19.948 3.0416 20.0521C3.0416 20.1937 3.16043 20.3125 3.30215 20.3125H20.4896C20.6312 20.3125 20.75 20.1937 20.75 20.0521C20.75 19.948 20.6928 19.8833 20.6583 19.8542C18.7301 18.224 17.625 15.8426 17.625 13.3209V10.4166C17.625 7.25727 15.0552 4.6875 11.8959 4.6875Z" fill="url(#paint9_linear)"/>
+                                            <path class="header-btn__img-path" d="M11.8959 4.6875C11.4646 4.6875 11.1146 4.3375 11.1146 3.90625V0.78125C11.1146 0.349998 11.4646 0 11.8959 0C12.3271 0 12.6771 0.349998 12.6771 0.78125V3.90625C12.6771 4.3375 12.3271 4.6875 11.8959 4.6875Z" fill="url(#paint10_linear)"/>
+                                            <defs>
+                                                <linearGradient id="paint6_linear" x1="10.6551" y1="-11.5625" x2="41.6017" y2="4.3064" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint7_linear" x1="10.6551" y1="-11.5625" x2="41.6017" y2="4.3064" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint8_linear" x1="10.6551" y1="-11.5625" x2="41.6017" y2="4.3064" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint9_linear" x1="10.6551" y1="-11.5625" x2="41.6017" y2="4.3064" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint10_linear" x1="10.6551" y1="-11.5625" x2="41.6017" y2="4.3064" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                        <div class="header-btn__count notifications-btn__count">
+                                            <span class="header-btn__count-text notifications-btn__count-text">1</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="header-btn__box peoples-btn__box">
+                                <div class="header-btn peoples-btn">
+                                    <a class="header-btn__link peoples-btn__link" href="#">
+                                        <svg class="header-btn__img" width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="header-btn__img-path" d="M11.4011 14.0095C11.428 14.0095 11.455 14.0095 11.4873 14.0095C11.498 14.0095 11.5088 14.0095 11.5196 14.0095C11.5357 14.0095 11.5573 14.0095 11.5734 14.0095C13.151 13.9826 14.427 13.428 15.3692 12.3674C17.4421 10.0307 17.0975 6.02485 17.0599 5.64258C16.9252 2.77283 15.5684 1.39988 14.4485 0.759164C13.614 0.279975 12.6395 0.0215366 11.5519 0H11.5142C11.5088 0 11.498 0 11.4927 0H11.4603C10.8627 0 9.68897 0.0969146 8.56368 0.737627C7.43301 1.37834 6.05467 2.7513 5.92007 5.64258C5.88238 6.02485 5.53779 10.0307 7.61069 12.3674C8.54753 13.428 9.82357 13.9826 11.4011 14.0095ZM7.35346 5.81937C7.35602 5.79056 7.36302 5.76304 7.36302 5.73411C7.54069 1.87368 10.2812 1.4591 11.455 1.4591H11.4765C11.4873 1.4591 11.5034 1.4591 11.5196 1.4591C12.9733 1.49141 15.4446 2.08366 15.6115 5.73411C15.6115 5.7631 15.6185 5.79071 15.6211 5.81958C15.6591 6.23542 15.8995 9.58834 14.287 11.4036C13.6086 12.1682 12.7041 12.545 11.5142 12.5558C11.5034 12.5558 11.498 12.5558 11.4873 12.5558C11.4765 12.5558 11.4711 12.5558 11.4603 12.5558C10.2758 12.545 9.36592 12.1682 8.6929 11.4036C7.0862 9.59925 7.31644 6.23469 7.35346 5.81937Z" fill="url(#paint11_linear)"/>
+                                            <path class="header-btn__img-path" d="M22.5516 20.6535C22.5516 20.6482 22.5516 20.6428 22.5516 20.6374C22.5516 20.5943 22.5462 20.5512 22.5462 20.5028C22.5139 19.4367 22.4439 16.9439 20.1072 16.147C20.0911 16.1416 20.0695 16.1362 20.0534 16.1309C17.6251 15.5117 15.6061 14.1118 15.5846 14.0956C15.2561 13.8641 14.8039 13.9449 14.5723 14.2733C14.3408 14.6018 14.4216 15.054 14.75 15.2855C14.8415 15.3502 16.9844 16.8416 19.6657 17.5307C20.9202 17.9776 21.0602 19.3183 21.0979 20.5459C21.0979 20.5943 21.0979 20.6374 21.1033 20.6805C21.1151 21.7409 20.4663 22.6604 19.4845 23.0615C17.8458 23.7309 15.0991 24.5517 11.498 24.5517C7.90677 24.5517 5.15158 23.726 3.50699 23.0545C2.52535 22.6537 1.86374 21.7351 1.8873 20.6751C1.8873 20.632 1.89268 20.5889 1.89268 20.5405C1.93037 19.3129 2.07036 17.9722 3.32486 17.5254C6.00617 16.8362 8.14905 15.3394 8.24058 15.2802C8.56902 15.0486 8.64978 14.5964 8.41826 14.2679C8.18674 13.9395 7.73448 13.8587 7.40604 14.0903C7.38451 14.1064 5.37622 15.5063 2.93721 16.1255C2.91567 16.1309 2.89952 16.1362 2.88337 16.1416C0.546648 16.9439 0.476654 19.4367 0.44435 20.4974C0.44435 20.5459 0.44435 20.5889 0.438965 20.632C0.438965 20.6374 0.438965 20.6428 0.438965 20.6482C0.433581 20.9281 0.428197 22.3657 0.713557 23.0872C0.767398 23.2272 0.864313 23.3456 0.993532 23.4264C1.15506 23.5341 5.02625 26 11.5034 26C17.9805 26 21.8517 23.5287 22.0132 23.4264C22.1371 23.3456 22.2393 23.2272 22.2932 23.0872C22.5624 22.3711 22.557 20.9335 22.5516 20.6535Z" fill="url(#paint12_linear)"/>
+                                            <defs>
+                                                <linearGradient id="paint11_linear" x1="10.298" y1="-12.025" x2="41.0526" y2="2.60891" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                                <linearGradient id="paint12_linear" x1="10.298" y1="-12.025" x2="41.0526" y2="2.60891" gradientUnits="userSpaceOnUse">
+                                                    <stop offset="0.0434489" stop-color="#D3478B"/>
+                                                    <stop offset="1" stop-color="#5A09AB"/>
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                        <div class="header-btn__count peoples-btn__count">
+                                            <span class="header-btn__count-text peoples-btn__count-text">1</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="header-btn__box post-btn__box">
+                                <div class="header-btn post-btn">
+                                    <a class="header-btn__link post-btn__link" href="#">
+                                        <svg class="header-btn__img post-btn__img" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="header-btn__img-path  post-btn__img-path" d="M17.25 8.25C16.836 8.25 16.5 8.586 16.5 9C16.5 13.1355 13.1355 16.5 9 16.5C4.8645 16.5 1.5 13.1355 1.5 9C1.5 4.8645 4.8645 1.5 9 1.5C11.0134 1.5 12.9034 2.28675 14.3224 3.7155C14.6138 4.0095 15.0889 4.01137 15.3829 3.71925C15.6769 3.4275 15.6784 2.95275 15.3866 2.65875C13.6841 0.94425 11.4157 0 9 0C4.03725 0 0 4.03725 0 9C0 13.9628 4.03725 18 9 18C13.9628 18 18 13.9628 18 9C18 8.586 17.664 8.25 17.25 8.25Z" fill="white"/>
+                                            <path class="header-btn__img-path post-btn__img-path" d="M12 8.25C10.7574 8.25 9.75 7.24264 9.75 6C9.75 5.586 9.414 5.25 9 5.25C8.586 5.25 8.25 5.586 8.25 6C8.25 7.24264 7.24264 8.25 6 8.25C5.586 8.25 5.25 8.586 5.25 9C5.25 9.414 5.586 9.75 6 9.75C7.24264 9.75 8.25 10.7574 8.25 12C8.25 12.414 8.586 12.75 9 12.75C9.414 12.75 9.75 12.414 9.75 12C9.75 10.7574 10.7574 9.75 12 9.75C12.414 9.75 12.75 9.414 12.75 9C12.75 8.586 12.414 8.25 12 8.25Z" fill="white"/>
+                                        </svg>
+                                        <span class="post-btn__text">post an ad</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="header-btn__box header__theme-btn_desc theme-btn__box">
+                                <div class="header-btn theme-btn">
+                                    <label class="theme-btn__label" id = "theme-button">
+                                        <input class="theme-btn__checkbox" type="checkbox">
+                                        <span class="theme-btn__slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="mob-menu" id="mobMenu">
+        <div class="mob-menu__inner">
+            <div class="mob-menu__content">
+                <div class="mob-menu__btn-box">
+                    <button class="mob-menu__btn" id="clouseMobMenu">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="34" height="34" rx="8" fill="url(#paint30_linear)" />
+                            <path
+                                d="M24.3231 22.6993L11.3005 9.67681C11.0609 9.43719 10.672 9.43722 10.4324 9.67681C10.1928 9.9164 10.1928 10.3054 10.4324 10.545L23.4549 23.5675C23.6945 23.8071 24.0835 23.8071 24.3231 23.5675C24.5627 23.3279 24.5627 22.939 24.3231 22.6993Z"
+                                fill="white" />
+                            <path
+                                d="M23.4549 9.67681L10.4324 22.6993C10.1927 22.939 10.1928 23.3279 10.4324 23.5675C10.672 23.8071 11.0609 23.8071 11.3005 23.5675L24.323 10.545C24.5627 10.3053 24.5626 9.9164 24.323 9.67681C24.0835 9.43722 23.6945 9.43719 23.4549 9.67681Z"
+                                fill="white" />
+                            <defs>
+                                <linearGradient id="paint30_linear" x1="15.1592" y1="-15.725" x2="59.3249" y2="8.98135"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.0434489" stop-color="#D3478B" />
+                                    <stop offset="1" stop-color="#5A09AB" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+                <div class="mob-menu__nav">
+                    <div class="mob-menu__nav-inner">
+                        <div class="mob-menu__nav-item mob-menu_profiles__nav-item">
+                            <div class="mob-menu__nav-item_inner">
+                                <a class="mob-menu__nav-item_link" href="#">
+                                    <i class="mob-menu__nav-item_img-box">
+                                        <svg class="mob-menu__nav-item_img" width="15" height="20" viewBox="0 0 15 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="mob-menu__nav-item_img-path"
+                                                d="M15 7.5C15 3.36426 11.6357 0 7.5 0C3.36426 0 0 3.36426 0 7.5C0 11.209 2.70859 14.2892 6.25 14.8871V16.25H3.75V18.75H6.25V20H8.75V18.75H11.25V16.25H8.75V14.8871C12.2914 14.2892 15 11.209 15 7.5ZM2.5 7.5C2.5 4.74304 4.74304 2.5 7.5 2.5C10.257 2.5 12.5 4.74304 12.5 7.5C12.5 10.257 10.257 12.5 7.5 12.5C4.74304 12.5 2.5 10.257 2.5 7.5Z"
+                                                fill="#C9BFCC" />
+                                        </svg>
+                                    </i>
+                                    <span class="mob-menu__nav-item_text">profiles</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mob-menu__nav-item mob-menu_profiles__nav-item">
+                            <div class="mob-menu__nav-item_inner">
+                                <a class="mob-menu__nav-item_link" href="#">
+                                    <i class="mob-menu__nav-item_img-box">
+                                        <svg class="mob-menu__nav-item_img" width="18" height="18" viewBox="0 0 18 18"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="mob-menu__nav-item_img-path"
+                                                d="M0 2.7C0 1.20883 1.20883 0 2.7 0H5.4C6.89117 0 8.1 1.20883 8.1 2.7V5.4C8.1 6.89117 6.89117 8.1 5.4 8.1H2.7C1.20883 8.1 0 6.89117 0 5.4V2.7Z"
+                                                fill="#C9BFCC" />
+                                            <path class="mob-menu__nav-item_img-path"
+                                                d="M9.9 2.7C9.9 1.20883 11.1088 0 12.6 0H15.3C16.7912 0 18 1.20883 18 2.7V5.4C18 6.89117 16.7912 8.1 15.3 8.1H12.6C11.1088 8.1 9.9 6.89117 9.9 5.4V2.7Z"
+                                                fill="#C9BFCC" />
+                                            <path class="mob-menu__nav-item_img-path"
+                                                d="M0 12.6C0 11.1088 1.20883 9.9 2.7 9.9H5.4C6.89117 9.9 8.1 11.1088 8.1 12.6V15.3C8.1 16.7912 6.89117 18 5.4 18H2.7C1.20883 18 0 16.7912 0 15.3V12.6Z"
+                                                fill="#C9BFCC" />
+                                            <path class="mob-menu__nav-item_img-path"
+                                                d="M9.9 13.95C9.9 11.7132 11.7132 9.9 13.95 9.9C16.1868 9.9 18 11.7132 18 13.95C18 16.1868 16.1868 18 13.95 18C11.7132 18 9.9 16.1868 9.9 13.95Z"
+                                                fill="#C9BFCC" />
+                                        </svg>
+                                    </i>
+                                    <span class="mob-menu__nav-item_text">ads</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mob-menu__nav-item mob-menu_profiles__nav-item">
+                            <div class="mob-menu__nav-item_inner">
+                                <a class="mob-menu__nav-item_link" href="#">
+                                    <i class="mob-menu__nav-item_img-box">
+                                        <svg class="mob-menu__nav-item_img" width="18" height="20" viewBox="0 0 18 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="mob-menu__nav-item_img-path"
+                                                d="M0.145075 18.1859C0.288473 18.7632 0.866871 18.8932 1.40731 19.0691C2.16535 19.3161 2.94913 19.4875 3.73471 19.6267C5.52431 19.9433 7.37476 20.084 9.1912 19.9486C10.0407 19.885 10.8022 19.7057 11.421 19.0861C11.9018 18.6038 11.8742 17.5251 11.92 16.9016C12.0478 15.1487 11.8753 13.4671 12.38 11.7614C12.568 11.1247 12.7719 9.87053 13.4077 9.53074C13.868 9.28496 14.0151 9.29779 14.165 9.78431C14.2841 10.1761 14.356 10.5847 14.4237 10.9887C14.7317 12.8478 15.1136 19.3173 15.1136 19.5094C15.1136 19.6706 15.767 19.5352 15.8554 19.4909C16.1792 19.3264 15.9689 18.1746 15.9689 17.8705C15.9689 16.9266 15.9852 15.9848 16.0258 15.0425C16.104 13.1736 16.2779 11.3034 16.5561 9.45226C16.7006 8.49377 16.8769 7.5413 17.0924 6.59665C17.1942 6.15562 17.2994 5.71451 17.4049 5.27312C17.4416 5.11927 17.4655 4.95368 17.4806 4.79009C17.5454 4.08546 17.4464 3.35249 17.0493 2.76677C16.5038 1.96332 15.8211 1.26127 15.0755 0.642801C15.0437 0.61635 15.0118 0.589697 14.9798 0.562964C14.5853 0.233467 14.0758 -0.0709726 13.8115 0.369771C12.9293 1.8389 11.8437 3.18287 11.0547 4.70698C10.2077 6.3421 9.6418 8.13358 8.71702 9.72648C8.2529 10.5253 7.70892 10.9705 6.80076 11.1627C6.40877 11.2467 6.04235 11.3701 5.70224 11.5866C5.37839 11.792 5.14242 12.1022 4.80642 12.2883C3.41256 13.0569 1.38165 12.6333 0.245059 13.9482C-0.202444 14.4659 0.094045 15.2765 0.123246 15.8974C0.159167 16.6142 -0.0284195 17.4948 0.145075 18.1859Z"
+                                                fill="#C9BFCC" />
+                                        </svg>
+                                    </i>
+                                    <span class="mob-menu__nav-item_text">agencies</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mob-menu__nav-item mob-menu_profiles__nav-item">
+                            <div class="mob-menu__nav-item_inner">
+                                <a class="mob-menu__nav-item_link" href="#">
+                                    <i class="mob-menu__nav-item_img-box">
+                                        <svg class="mob-menu__nav-item_img" width="14" height="20" viewBox="0 0 14 20"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="mob-menu__nav-item_img-path"
+                                                d="M12.7973 3.4249C11.5835 1.33021 9.42758 0.0504882 7.03013 0.00158203C6.92778 -0.000527343 6.82478 -0.000527343 6.72239 0.00158203C4.32497 0.0504882 2.16904 1.33021 0.95521 3.4249C-0.285492 5.56599 -0.319437 8.13786 0.86439 10.3047L5.82388 19.3823C5.8261 19.3863 5.82833 19.3904 5.83064 19.3943C6.04884 19.7736 6.43974 20 6.87634 20C7.3129 20 7.7038 19.7736 7.92196 19.3943C7.92427 19.3904 7.92649 19.3863 7.92872 19.3823L12.8882 10.3047C14.072 8.13786 14.038 5.56599 12.7973 3.4249ZM6.87626 9.06251C5.32544 9.06251 4.06376 7.80083 4.06376 6.25001C4.06376 4.69919 5.32544 3.43752 6.87626 3.43752C8.42708 3.43752 9.68876 4.69919 9.68876 6.25001C9.68876 7.80083 8.42712 9.06251 6.87626 9.06251Z"
+                                                fill="#C9BFCC" />
+                                        </svg>
+                                    </i>
+                                    <span class="mob-menu__nav-item_text">location</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    <div class="page_ads page">
+        <div class="page_ads__wrapper wrapper">
+            <div class="page_ads__inner inner">
+                <div class="widget">
+                    <div class="block-row">
+                        <div class="subblock">
+                            <div class="page-nav">
+                                <div class="page-nav__inner">
+                                  <div class="page-nav__content">
+                                    <div class="page-nav__prev-page_box">
+                                      <a href="#" class="page-nav__prev-page_link">
+                                        <span class="page-nav__prev-page_name">Home</span>
+                                      </a>
+                                    </div>
+                                    <div class="page-nav__arrow-img_box">
+                                        <i class="page-nav__arrow-img_inner">
+                                            <svg class="page-nav__arrow-img" width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.21213 3.21213C5.32929 3.09497 5.32929 2.90503 5.21213 2.78787L3.30294 0.87868C3.18579 0.761522 2.99584 0.761522 2.87868 0.87868C2.76152 0.995837 2.76152 1.18579 2.87868 1.30294L4.57574 3L2.87868 4.69706C2.76152 4.81421 2.76152 5.00416 2.87868 5.12132C2.99584 5.23848 3.18579 5.23848 3.30294 5.12132L5.21213 3.21213ZM0 3.3H5V2.7H0V3.3Z" fill="#D4488B"/>
+                                            </svg>
+                                        </i>
+                                    </div>  
+                                    <div class="page-nav__current-page_box">
+                                      <a href="#" class="page-nav__current-page_link">
+                                        <span class="page-nav__current-page_name">Profiles page</span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>                        </div>
+                    </div>
+                </div>
+                <div class="page__main-block">
+                    <div class="sidebar">
+                        <aside class="sidebar__inner">
+                            <div class="sidebar__content">
+
+                                <div class="widget">
+                                    <div class="block-row">
+
+                                        <div class="subblock">
+                                            <div class="subblock__title-box">
+                                                <h2 class="subblock__title">Filtrs</h2>
+                                            </div>
+                                            <div class="subblock__info-box subblock_premium-escorst__info-box">
+                                                
+                                                <div class="filter">
+                                                    <div class="filter__inner">
+                                                        <div class="filter__content">
+                                                
+                                                            <div class='filter-dropdown'>
+                                                                <div class='filter-dropdown__title-box'>
+                                                                    <h3 class="filter-dropdown__title">province</h3> 
+                                                                    <i class="filter-dropdown__caret">
+                                                                        <svg class="filter-dropdown__caret-img" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M4.86453 0.269603L0.268263 5.01651C0.0893961 5.19132 2.07542e-08 5.40961 1.76274e-08 5.67182C1.45006e-08 5.93403 0.089495 6.15232 0.268263 6.32714L0.797863 6.88047C0.972031 7.06011 1.18374 7.14992 1.43321 7.14992C1.67795 7.14992 1.89218 7.06013 2.0757 6.88047L5.50002 3.34204L8.9314 6.88063C9.10557 7.06021 9.31728 7.15002 9.56677 7.15002C9.81149 7.15002 10.0258 7.06023 10.2092 6.88063L10.7388 6.32724C10.9129 6.14763 11 5.92911 11 5.67192C11 5.41464 10.9129 5.19616 10.7388 5.01661L6.14249 0.269603C5.95892 0.0899187 5.74474 2.43872e-05 5.5 2.43843e-05C5.25053 -1.3679e-06 5.0387 0.0899187 4.86453 0.269603Z" fill="#CF458C"/>
+                                                                        </svg>
+                                                                    </i>
+                                                                </div>
+                                                                
+                                                                <div class='filter-dropdown__hide filter-dropdown__content'>
+                                                
+                                                                    <div class="filter-dropdown__search-box">
+                                                                        <input type="text" class="filter-dropdown__search-input" placeholder="Search">
+                                                                    </div>
+                                                
+                                                                    <div class="option-box filter-dropdown__option-box customScroll">
+                                                                        <div class=' filter-dropdown__option' id='option1'>New York</div>
+                                                                        <div class=' filter-dropdown__option' id='option2'>Los Angeles</div>
+                                                                        <div class='filter-dropdown__option' id='option3'>Chicago</div>
+                                                                        <div class=' filter-dropdown__option' id='option4'>Philadelphia</div>
+                                                                        <div class='filter-dropdown__option' id='option5'>San Antonio</div>
+                                                                        <div class=' filter-dropdown__option' id='option6'>Option 2</div>
+                                                                        <div class=' filter-dropdown__option' id='option7'>Option 3</div>
+                                                                        <div class='filter-dropdown__option' id='option8'>Option 4</div>
+                                                                    </div>
+                                                
+                                                                </div>
+                                                                   
+                                                                
+                                                            </div>
+                                                
+                                                            <div class='filter-dropdown'>
+                                                                <div class='filter-dropdown__title-box'>
+                                                                    <h3 class="filter-dropdown__title">city</h3> 
+                                                                    <i class="filter-dropdown__caret">
+                                                                        <svg class="filter-dropdown__caret-img" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M4.86453 0.269603L0.268263 5.01651C0.0893961 5.19132 2.07542e-08 5.40961 1.76274e-08 5.67182C1.45006e-08 5.93403 0.089495 6.15232 0.268263 6.32714L0.797863 6.88047C0.972031 7.06011 1.18374 7.14992 1.43321 7.14992C1.67795 7.14992 1.89218 7.06013 2.0757 6.88047L5.50002 3.34204L8.9314 6.88063C9.10557 7.06021 9.31728 7.15002 9.56677 7.15002C9.81149 7.15002 10.0258 7.06023 10.2092 6.88063L10.7388 6.32724C10.9129 6.14763 11 5.92911 11 5.67192C11 5.41464 10.9129 5.19616 10.7388 5.01661L6.14249 0.269603C5.95892 0.0899187 5.74474 2.43872e-05 5.5 2.43843e-05C5.25053 -1.3679e-06 5.0387 0.0899187 4.86453 0.269603Z" fill="#CF458C"/>
+                                                                        </svg>
+                                                                    </i>
+                                                                </div>
+                                                                
+                                                                <div class='filter-dropdown__hide filter-dropdown__content'>
+                                                
+                                                                    <div class="filter-dropdown__search-box">
+                                                                        <input type="text" class="filter-dropdown__search-input" placeholder="Search">
+                                                                    </div>
+                                                
+                                                                    <div class="option-box filter-dropdown__option-box customScroll" >
+                                                                        <div class=' filter-dropdown__option' id='option1'>New York</div>
+                                                                        <div class=' filter-dropdown__option' id='option2'>Los Angeles</div>
+                                                                        <div class='filter-dropdown__option' id='option3'>Chicago</div>
+                                                                        <div class=' filter-dropdown__option' id='option4'>Philadelphia</div>
+                                                                        <div class='filter-dropdown__option' id='option5'>San Antonio</div>
+                                                                        <div class=' filter-dropdown__option' id='option6'>Option 2</div>
+                                                                        <div class=' filter-dropdown__option' id='option7'>Option 3</div>
+                                                                        <div class='filter-dropdown__option' id='option8'>Option 4</div>
+                                                                    </div>
+                                                
+                                                                </div>
+                                                                   
+                                                                
+                                                            </div>
+                                                
+                                                            <div class='filter-dropdown'>
+                                                                <div class='filter-dropdown__title-box'>
+                                                                    <h3 class="filter-dropdown__title">age</h3> 
+                                                                    <i class="filter-dropdown__caret">
+                                                                        <svg class="filter-dropdown__caret-img" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M4.86453 0.269603L0.268263 5.01651C0.0893961 5.19132 2.07542e-08 5.40961 1.76274e-08 5.67182C1.45006e-08 5.93403 0.089495 6.15232 0.268263 6.32714L0.797863 6.88047C0.972031 7.06011 1.18374 7.14992 1.43321 7.14992C1.67795 7.14992 1.89218 7.06013 2.0757 6.88047L5.50002 3.34204L8.9314 6.88063C9.10557 7.06021 9.31728 7.15002 9.56677 7.15002C9.81149 7.15002 10.0258 7.06023 10.2092 6.88063L10.7388 6.32724C10.9129 6.14763 11 5.92911 11 5.67192C11 5.41464 10.9129 5.19616 10.7388 5.01661L6.14249 0.269603C5.95892 0.0899187 5.74474 2.43872e-05 5.5 2.43843e-05C5.25053 -1.3679e-06 5.0387 0.0899187 4.86453 0.269603Z" fill="#CF458C"/>
+                                                                        </svg>
+                                                                    </i>
+                                                                </div>
+                                                                
+                                                                <div class='filter-dropdown__hide filter-dropdown__content'>
+                                                
+                                                                    <div class="filter-dropdown__input-box filter-dropdown__input-box_age">
+                                                                        <input type="text" id="ageSlider" class="slider">
+                                                                    </div>
+                                                
+                                                                    <div class="btn-group filter-dropdown__btn-group">
+                                                
+                                                                        <div class="btn-box filter-dropdown__btn-box">
+                                                                            <button class="filter-dropdown__btn">
+                                                                                <span class="btn-text filter-dropdown__btn-text">Incall</span>
+                                                                            </button>
+                                                                        </div>
+                                                
+                                                                        <div class="btn-box filter-dropdown__btn-box">
+                                                                            <button class="filter-dropdown__btn">
+                                                                                <span class="btn-text filter-dropdown__btn-text">Outcall</span>
+                                                                            </button>
+                                                                        </div>
+                                                
+                                                                         <div class="btn-box filter-dropdown__btn-box">
+                                                                            <button class="filter-dropdown__btn">
+                                                                                <span class="btn-text filter-dropdown__btn-text">Any</span>
+                                                                            </button>
+                                                                        </div>
+                                                
+                                                                    </div>
+                                                
+                                                                </div>
+                                                                   
+                                                                
+                                                            </div>
+                                                
+                                                            <div class='filter-dropdown'>
+                                                                <div class='filter-dropdown__title-box'>
+                                                                    <h3 class="filter-dropdown__title">The cost</h3> 
+                                                                    <i class="filter-dropdown__caret">
+                                                                        <svg class="filter-dropdown__caret-img" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M4.86453 0.269603L0.268263 5.01651C0.0893961 5.19132 2.07542e-08 5.40961 1.76274e-08 5.67182C1.45006e-08 5.93403 0.089495 6.15232 0.268263 6.32714L0.797863 6.88047C0.972031 7.06011 1.18374 7.14992 1.43321 7.14992C1.67795 7.14992 1.89218 7.06013 2.0757 6.88047L5.50002 3.34204L8.9314 6.88063C9.10557 7.06021 9.31728 7.15002 9.56677 7.15002C9.81149 7.15002 10.0258 7.06023 10.2092 6.88063L10.7388 6.32724C10.9129 6.14763 11 5.92911 11 5.67192C11 5.41464 10.9129 5.19616 10.7388 5.01661L6.14249 0.269603C5.95892 0.0899187 5.74474 2.43872e-05 5.5 2.43843e-05C5.25053 -1.3679e-06 5.0387 0.0899187 4.86453 0.269603Z" fill="#CF458C"/>
+                                                                        </svg>
+                                                                    </i>
+                                                                </div>
+                                                                
+                                                                <div class='filter-dropdown__hide filter-dropdown__content'>
+                                                
+                                                                    <div class="slider-container">
+                                                
+                                                                        <div class="filter-dropdown__input-box filter-dropdown__input-box_cost" style="min-height: 40px;">
+                                                                            <input type="text" id="costSlider" class="slider">
+                                                                        </div> 
+                                                
+                                                                    </div>
+                                                                   
+                                                                
+                                                                </div>
+                                                
+                                                            </div>
+                                                
+                                                            <div class='filter-dropdown'>
+                                                                <div class='filter-dropdown__title-box'>
+                                                                    <h3 class="filter-dropdown__title">EtHnicities</h3> 
+                                                                    <i class="filter-dropdown__caret">
+                                                                        <svg class="filter-dropdown__caret-img" width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M4.86453 0.269603L0.268263 5.01651C0.0893961 5.19132 2.07542e-08 5.40961 1.76274e-08 5.67182C1.45006e-08 5.93403 0.089495 6.15232 0.268263 6.32714L0.797863 6.88047C0.972031 7.06011 1.18374 7.14992 1.43321 7.14992C1.67795 7.14992 1.89218 7.06013 2.0757 6.88047L5.50002 3.34204L8.9314 6.88063C9.10557 7.06021 9.31728 7.15002 9.56677 7.15002C9.81149 7.15002 10.0258 7.06023 10.2092 6.88063L10.7388 6.32724C10.9129 6.14763 11 5.92911 11 5.67192C11 5.41464 10.9129 5.19616 10.7388 5.01661L6.14249 0.269603C5.95892 0.0899187 5.74474 2.43872e-05 5.5 2.43843e-05C5.25053 -1.3679e-06 5.0387 0.0899187 4.86453 0.269603Z" fill="#CF458C"/>
+                                                                        </svg>
+                                                                    </i>
+                                                                </div>
+                                                                
+                                                                <div class='filter-dropdown__hide filter-dropdown__content'>
+                                                                    <div class="filter-dropdown__check-group customScroll" >
+                                                
+                                                                        <div class='filter-dropdown__check' id=''>
+                                                                            <label class="filter-dropdown__check-label" for="checkEth_1">
+                                                                                <input class="checkbox__input filter-dropdown__check-input" type="checkbox" id="checkEth_1">
+                                                                                <span class="checkbox__text filter-dropdown__check-text">Chinese women</span>
+                                                                            </label>
+                                                                        </div>
+                                                
+                                                                        <div class='filter-dropdown__check' id=''>
+                                                                            <label class="filter-dropdown__check-label" for="checkEth_2">
+                                                                                <input class="checkbox__input filter-dropdown__check-input" type="checkbox" id="checkEth_2">
+                                                                                <span class="checkbox__text filter-dropdown__check-text">Mullatos</span>
+                                                                            </label>
+                                                                        </div>
+                                                
+                                                                        <div class='filter-dropdown__check' id=''>
+                                                                            <label class="filter-dropdown__check-label" for="checkEth_3">
+                                                                                <input class="checkbox__input filter-dropdown__check-input" type="checkbox" id="checkEth_3">
+                                                                                <span class="checkbox__text filter-dropdown__check-text">Russians</span>
+                                                                            </label>
+                                                                        </div>
+                                                
+                                                                        <div class='filter-dropdown__check' id=''>
+                                                                            <label class="filter-dropdown__check-label" for="checkEth_4">
+                                                                                <input class="checkbox__input filter-dropdown__check-input" type="checkbox" id="checkEth_4">
+                                                                                <span class="checkbox__text filter-dropdown__check-text">Mexican</span>
+                                                                            </label>
+                                                                        </div>
+                                                
+                                                                    </div>
+                                                                </div>
+                                                                   
+                                                                
+                                                            </div>
+                                                
+                                                            <div class="filter-btn-group">
+                                                
+                                                                <div class="filter-btn-group__item">
+                                                                    <button class="btn_pick-up">
+                                                                        <span class="btn_pick-up__text">PICK UP</span>
+                                                                    </button>
+                                                                </div>
+                                                
+                                                                <div class="filter-btn-group__item">
+                                                                    <button class="btn_reset">
+                                                                        <img src="./assets/images/All/reset-btn.svg" alt="" class="btn_reset__img">
+                                                                        <span class="btn_reset__text">Reset filter</span>
+                                                                    </button>
+                                                                </div>
+                                                                
+                                                                
+                                                            </div>
+                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="page__content ">
+                        <div class="widget">
+                            <div class="block-row">
+                                <div class="subblock">
+                                    <div class="subblock__title-box">
+                                        <h2 class="subblock__title">Profiles page</h2>
+                                    </div>
+                                    <div class="subblock__info-box subblock_premium-escorst__info-box">
+                                        <div class="ads-group">
+                                        
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                        
+                                        </div>                                    </div>
+                                </div>
+                                <div class="subblock page_profiles__subblock_profiles page_profiles__subblock_profiles_1"
+                                    data-da=".sidebar__content,1090,2">
+                                    <div class="subblock__title-box subblock_profiles__title-box">
+                                        <h2 class="subblock__title subblock_profiles__title"></h2>
+                                    </div>
+                                    <div class="subblock__info-box">
+                                        <div class="profiles">
+                                        
+                                            <div class="banner ag-ban">
+                                                <div class="ag-ban__inner banner__inner">
+                                                    <div class="ag-ban__title-box banner__title-box">
+                                                        <h3 class="ag-ban__title banner__title">Agencies</h3>
+                                                    </div>
+                                                    
+                                                    <div class="ag-ban__text-box banner__text-box">
+                                                        <p class="ag-ban__text  banner__text">
+                                                        Beautiful, well-groomed 
+                                                        girls will gladly come to 
+                                                        visit you or welcome
+                                                        </p>
+                                                    </div>
+                                            
+                                                    <div class="ag-ban__btn-box banner__btn-box">
+                                                        <div class="ag-ban__btn banner__btn">
+                                                            <a href="#" class="ag-ban__btn-link banner__btn-link">
+                                                                <span class="ag-ban__btn-text">
+                                                                    Register now
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="banner esc-ban">
+                                                <div class="esc-ban__inner banner__inner">
+                                            
+                                                  <div class="esc-ban__title-box banner__title-box">
+                                                    <h3 class="esc-ban__title banner__title">Escorts</h3>
+                                                  </div>
+                                                  
+                                                  <div class="esc-ban__text-box banner__text-box">
+                                                    <p class="esc-ban__text  banner__text">
+                                                      Beautiful, well-groomed 
+                                                      girls will gladly come to 
+                                                      visit you or welcome
+                                                    </p>
+                                                  </div>
+                                            
+                                                  <div class="esc-ban__btn-box banner__btn-box">
+                                                    <div class="esc-ban__btn banner__btn">
+                                                        <a href="#" class="esc-ban__btn-link banner__btn-link">
+                                                            <span class="esc-ban__btn-text">
+                                                                Register now
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div> 
+                                        
+                                        </div>
+                                        
+                                                    
+                                                    
+                                        
+                                                    
+                                                        
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="block-row">
+                                <div class="subblock">
+                                    <div
+                                        class="banner-container banner-container_vip banner-container_vip_double banner-container_vip_double_c">
+                                        <div class="get-vip-ban get-vip-ban_1">
+                                            <div class="get-vip-ban__inner get-vip-ban_1__inner">
+                                                <div class="get-vip-ban__content get-vip-ban_1__content">
+                                                    <div class="get-vip-ban__styling-bg get-vip-ban_1__styling-bg">
+
+                                                        <div class="get-vip-ban__info  get-vip-ban_1__info">
+                                                            <div class="get-vip-ban__img-box get-vip-ban_1__img-box">
+                                                                <img src="./assets/images/All/banner-vip.png" alt=""
+                                                                    class="get_vip-ban__img">
+                                                            </div>
+                                                            <div class="get-vip-ban__text-box  get-vip-ban_1__text-box">
+                                                                <h2
+                                                                    class="get-vip-ban__info-title  get-vip-ban_1__info-title">
+                                                                    Get an account VIP</h2>
+                                                                <p
+                                                                    class="get-vip-ban__info-text  get-vip-ban_1__info-text">
+                                                                    Beautiful, well-groomed girls will gladly come to
+                                                                    visit you or welcome you in their cozy apartments,
+                                                                    we have a large selection of girls
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="get-vip-ban__btn-box  get-vip-ban_1__btn-box">
+                                                            <div class="get-vip-ban__btn btn">
+                                                                <a href="#" class="get-vip-ban__btn-link">
+                                                                    <span class="get-vip-ban__btn-text">Get a VIP
+                                                                        account</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="get-vip-ban get-vip-ban_1">
+                                            <div class="get-vip-ban__inner get-vip-ban_1__inner">
+                                                <div class="get-vip-ban__content get-vip-ban_1__content">
+                                                    <div class="get-vip-ban__styling-bg get-vip-ban_1__styling-bg">
+
+                                                        <div class="get-vip-ban__info  get-vip-ban_1__info">
+                                                            <div class="get-vip-ban__img-box get-vip-ban_1__img-box">
+                                                                <img src="./assets/images/All/banner-vip.png" alt=""
+                                                                    class="get_vip-ban__img">
+                                                            </div>
+                                                            <div class="get-vip-ban__text-box  get-vip-ban_1__text-box">
+                                                                <h2
+                                                                    class="get-vip-ban__info-title  get-vip-ban_1__info-title">
+                                                                    Get an account VIP</h2>
+                                                                <p
+                                                                    class="get-vip-ban__info-text  get-vip-ban_1__info-text">
+                                                                    Beautiful, well-groomed girls will gladly come to
+                                                                    visit you or welcome you in their cozy apartments,
+                                                                    we have a large selection of girls
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="get-vip-ban__btn-box  get-vip-ban_1__btn-box">
+                                                            <div class="get-vip-ban__btn btn">
+                                                                <a href="#" class="get-vip-ban__btn-link">
+                                                                    <span class="get-vip-ban__btn-text">Get a VIP
+                                                                        account</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="get-vip-ban get-vip-ban_2">
+                                            <div class="get-vip-ban__inner get-vip-ban_2__inner">
+                                                <div class="get-vip-ban__content get-vip-ban_2__content">
+                                                    <div class="get-vip-ban__styling-bg get-vip-ban_2__styling-bg">
+
+                                                        <div class="get-vip-ban__info  get-vip-ban_2__info">
+                                                            <div class="get-vip-ban__text-box  get-vip-ban_2__text-box">
+                                                                <h2
+                                                                    class="get-vip-ban__info-title  get-vip-ban_2__info-title">
+                                                                    Get an account VIP</h2>
+                                                                <p
+                                                                    class="get-vip-ban__info-text  get-vip-ban_2__info-text">
+                                                                    Beautiful, well-groomed girls will gladly come to
+                                                                    visit you or welcome you in their cozy apartments,
+                                                                    we have a large selection of girls
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="get-vip-ban__btn-box  get-vip-ban_2__btn-box">
+                                                            <div class="get-vip-ban__btn btn">
+                                                                <a href="#" class="get-vip-ban__btn-link">
+                                                                    <span class="get-vip-ban__btn-text">Get a VIP
+                                                                        account</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget">
+                            <div class="block-row">
+
+                                <div class="subblock">
+                                    <div class="subblock__info-box subblock_premium-escorst__info-box">
+                                        <div class="ads-group">
+                                        
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                            <div class="ads-item">
+                                                <a href="#" class="ads-item__link">
+                                        
+                                                    <div class="ads-item__content">
+                                        
+                                                        <div class="ads-item__img-box">
+                                                            <div class="ads-item__img-styling-bg"></div>
+                                                            <img class="ads-item__img" src="./assets/images/All/girl.png" alt="">
+                                                        </div>
+                                            
+                                                        <div class="ads-item__info-box">
+                                            
+                                                            <div class="ads-item__info">
+                                                                <h3 class="ads-item__title">Monika</h3>
+                                                                <p class="ads-item__text">
+                                                                    But the persona of the new surprised everyone. Firstly, only 31 years old. Secondly, it was a girl. The sports department of Bern was headed by Florence Schilling, who had retired from her sports career only two years earlier. The peak of her fame was the 2014 Olympics,
+                                                                </p>
+                                                            </div>
+                                            
+                                                            <div class="ads-item__btn-box">
+                                                                <div class="ads-item__btn">
+                                                                    <a href="#" class="ads-item__btn-link">
+                                                                        <span class="ads-item__btn-text">
+                                                                            Register now
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                            
+                                                        </div>
+                                            
+                                                    </div>
+                                        
+                                                </a>
+                                            </div>
+                                        
+                                        </div>                                    </div>
+                                </div>
+
+                                <div
+                                    class="subblock page_profiles__subblock_profiles page_profiles__subblock_profiles_2">
+                                    <div class="subblock__info-box">
+                                        <div class="profiles">
+                                        
+                                            <div class="banner ag-ban">
+                                                <div class="ag-ban__inner banner__inner">
+                                                    <div class="ag-ban__title-box banner__title-box">
+                                                        <h3 class="ag-ban__title banner__title">Agencies</h3>
+                                                    </div>
+                                                    
+                                                    <div class="ag-ban__text-box banner__text-box">
+                                                        <p class="ag-ban__text  banner__text">
+                                                        Beautiful, well-groomed 
+                                                        girls will gladly come to 
+                                                        visit you or welcome
+                                                        </p>
+                                                    </div>
+                                            
+                                                    <div class="ag-ban__btn-box banner__btn-box">
+                                                        <div class="ag-ban__btn banner__btn">
+                                                            <a href="#" class="ag-ban__btn-link banner__btn-link">
+                                                                <span class="ag-ban__btn-text">
+                                                                    Register now
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="banner esc-ban">
+                                                <div class="esc-ban__inner banner__inner">
+                                            
+                                                  <div class="esc-ban__title-box banner__title-box">
+                                                    <h3 class="esc-ban__title banner__title">Escorts</h3>
+                                                  </div>
+                                                  
+                                                  <div class="esc-ban__text-box banner__text-box">
+                                                    <p class="esc-ban__text  banner__text">
+                                                      Beautiful, well-groomed 
+                                                      girls will gladly come to 
+                                                      visit you or welcome
+                                                    </p>
+                                                  </div>
+                                            
+                                                  <div class="esc-ban__btn-box banner__btn-box">
+                                                    <div class="esc-ban__btn banner__btn">
+                                                        <a href="#" class="esc-ban__btn-link banner__btn-link">
+                                                            <span class="esc-ban__btn-text">
+                                                                Register now
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div> 
+                                        
+                                        </div>
+                                        
+                                                    
+                                                    
+                                        
+                                                    
+                                                        
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="widget">
+                    <div class="block-row">
+                        <div class="subblock">
+                            <div class="show-more">
+                                <button href="#" class="show-more__btn">
+                                    <span class="show-more__text">Show more</span>
+                                    <img class="show-more__img" src="./assets/images/All/show-more.svg" alt="">
+                                </button >
+                            </div>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__wrapper wrapper">
+            <div class="footer__inner inner">
+                <div class="footer__content">
+    
+    
+                    <div class="logo footer-logo"> 
+                        <div class="footer-logo__inner">
+                            <a href="#" class="footer-logo__link">
+                                <img class="footer-logo__img" src="../assets/images/All/logo--dark.png" alt="LoveSPer logo">
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer-text">
+                        <span class="footer-text__item">
+                            LoveSper.com <br class="footer-text__br">© 2021 All rights reserved
+                        </span>
+                    </div>
+    
+                    <div class="contact-us-btn__box footer-btn__box">
+                        <div class="contact-us-btn">
+                            <a class="contact-us-btn__link" href="#">
+                                contact us
+                            </a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/darkmode.min.js"></script>
+    <script src="assets/js/vendor/rSlider.min.js"></script>
+    <script src="assets/js/vendor/simplebar.min.js"></script>
+    <script src="assets/js/vendor/owl.carousel.min.js"></script>
+    <script src="assets/js/vendor/theme.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
