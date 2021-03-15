@@ -1,0 +1,183 @@
+body {
+    background-image: url("../images/All/bg--light.jpg");
+}
+
+.header__content {
+    border-color: rgba(104, 105, 134, 0.19);
+}
+
+.header-nav__item:last-child .header-nav__item-inner {
+    border-color: rgba(104, 105, 134, 0.2);
+}
+
+.post-btn__text {
+    color: #686986;
+}
+
+.header-nav__item-inner,
+.header-btn__inner {
+    border-color: rgba(104, 105, 134, 0.2);
+}
+
+footer {
+    background-color: #1E0D2C;
+}
+
+.filter-dropdown__search-input::-webkit-input-placeholder {
+    color: #686986;
+}
+
+.filter-dropdown__search-input::-moz-placeholder {
+    color: #686986;
+}
+
+.filter-dropdown__search-input:-ms-input-placeholder {
+    color: #686986;
+}
+
+.filter-dropdown__search-input::-ms-input-placeholder {
+    color: #686986;
+}
+
+.subblock__title, .live-ads-text__item, .go-to-profile__text, .escort-profile__about-text,
+.escort-profile__info-item-title, .escort-profile__data-item-name, .escort-profile__name, .escort-profile__desc-text, .escort-profile__info-item-content,
+.live-ads__item-name, .live-ads__item-live, .filter-dropdown__title, .filter-dropdown__option, .filter-dropdown__check-text,
+.ads-item__text, .ads-item__title, .agenci-profile__name, .agenci-profile__info-item-title, .agenci-profile__contact-item,
+.agenci-profile__about-text,
+.agenci-card__desc-text, .agenci-card__place-text, .agenci-card__escorts-count-text, .agenci-card__name, .page-nav__prev-page_name,
+.page-nav__current-page_name, .profile-reiting-text, .profile-reputation-text, .edit-profile__text, .escort-count__text, .register-date__text, .register-date__date,
+.register-date__mobile-subblock-title, .ag-my-profile__nick, .form__title, .ag-my-profile__mobile-subblock-title, .filter-dropdown__search-input,
+.filter-dropdown__search-input::placeholder, .btn_reset__text, .show-more__text {
+    color: #686986;
+}
+
+.live-ads__item-box {
+    border: 0.6px solid rgba(101, 89, 105, 0.63);
+}
+
+.live-ads__item {
+    background: rgba(28, 18, 35, 0.06);
+}
+
+.live-ads__item:nth-child(2n) {
+    background: transparent;
+}
+
+.form, .form__input, .form__select {
+    border: 0.6px solid rgba(101, 89, 105, 0.63);
+}
+
+.escort-profile__info-item-box, .agenci-card, .agenci-profile__info-item-box, .escort-profile__cost-item, .filter-dropdown__search-input,
+.filter-dropdown, .ads-item, .profile-reiting, .profile-reputation, .ag-my-profile__tools-item, .ag-my-profile__textarea-box, .filter-dropdown__check-text::before {
+    border: 0.6px solid rgba(101, 89, 105, 0.63);
+}
+
+.ag-my-profile__tools-item .ag-my-profile__tools-item-rang {
+    border: none;
+}
+
+.esc-ban {
+    background: url("../images/All/banan.png") 156% -20%/191px 259px no-repeat, linear-gradient(109.98deg, #360F67 -21.94%, #5A09AB 109.18%);
+}
+
+.ag-ban {
+    background: url("../images/All/mango.png") 140% 50% no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+}
+
+.escort-profile .esc-ban {
+    background: url("../images/All/banan.png") 1342% -15%/245px 362px no-repeat, linear-gradient(109.98deg, #360F67 -21.94%, #5A09AB 109.18%);
+}
+
+@media (max-width: 1110px) {
+    .escort-profile .esc-ban {
+        background: url(../images/All/banan.png) 170% -15%/274px 365px no-repeat, linear-gradient(109.98deg, #360F67 -21.94%, #5A09AB 109.18%);
+    }
+}
+
+.escort-profile .ag-ban {
+    background: url(../images/All/mango.png) 55% 130% no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+}
+
+@media (max-width: 1110px) {
+    .escort-profile .ag-ban {
+        background: url(../images/All/mango.png) 159% 50%/254px no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+    }
+}
+
+@media (max-width: 720px) {
+    .escort-profile .ag-ban {
+        background: url(../images/All/mango.png) 109% 50%/178px no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+    }
+}
+
+@media (max-width: 400px) {
+    .escort-profile .ag-ban {
+        background: url(../images/All/mango.png) 130% 50%/178px no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+    }
+}
+
+@media (max-width: 940px) {
+    .page_main__subblock_profiles .ag-ban {
+        background: url(../images/All/mango.png) 105% 50% no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+    }
+}
+
+@media (max-width: 940px) {
+    .page_main__subblock_profiles .esc-ban {
+        background: url(../images/All/banan.png) 130% -20%/191px 259px no-repeat, linear-gradient(109.98deg, #360F67 -21.94%, #5A09AB 109.18%);
+    }
+}
+
+.agenci-profile .esc-ban {
+    background: url("../images/All/banan.png") 1342% -15%/245px 362px no-repeat, linear-gradient(109.98deg, #360F67 -21.94%, #5A09AB 109.18%);
+}
+
+.agenci-profile .ag-ban {
+    background: url(../images/All/mango.png) 55% 130% no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+}
+
+.get-vip-ban_1__content {
+    background: url("../images/All/banners/Vector2.svg") 89% 50% no-repeat, linear-gradient(119.22deg, #8d47d3 16.75%, #5a09ab 121.37%), url("../images/All/banners/Vector1.svg") 79% -6% no-repeat;
+}
+
+@media (max-width: 1280px) {
+    .get-vip-ban_1__content {
+        background: url(../images/All/banners/Vector1.svg) 64% -6% no-repeat, url(../images/All/banners/Vector2.svg) 72% 50% no-repeat, linear-gradient(119.22deg, rgba(141, 71, 211, 0.8) 16.75%, rgba(90, 9, 171, 0.8) 121.37%);
+    }
+}
+
+.get-vip-ban_1__styling-bg {
+    background: url("../images/All/banner-girl.png") calc(100% + 90px) 38% no-repeat, linear-gradient(119.22deg, #8d47d3 16.75%, #5a09ab 121.37%);
+}
+
+.get-vip-ban_2__content {
+    background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.8) 16.75%, rgba(90, 9, 171, 0.8) 121.37%), url("../images/All/banners/banner-styling2.svg") 19% 50% no-repeat;
+}
+
+.get-vip-ban_2__styling-bg {
+    background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/banners/image57.png") 0% 10% no-repeat;
+}
+
+@media (max-width: 1600px) {
+    .get-vip-ban_2__styling-bg {
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/banners/image57.png") -10% 10% no-repeat;
+    }
+}
+
+@media (max-width: 1400px) {
+    .get-vip-ban_2__styling-bg {
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/banners/image57.png") -20% 10% no-repeat;
+    }
+}
+
+@media (max-width: 620px) {
+    .get-vip-ban_2__styling-bg {
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url(../images/All/banners/image57.png) 0% 0% no-repeat;
+    }
+}
+
+@media (max-width: 360px) {
+    .get-vip-ban_2__styling-bg {
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url(../images/All/banners/image57.png) 90% 5% no-repeat;
+    }
+}
