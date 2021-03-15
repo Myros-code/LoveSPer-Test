@@ -137,12 +137,12 @@ footer {
 }
 
 .get-vip-ban_1__content {
-    background: url("../images/All/banners/Vector2.svg") 89% 50% no-repeat, linear-gradient(119.22deg, #8d47d3 16.75%, #5a09ab 121.37%), url("../images/All/banners/Vector1.svg") 79% -6% no-repeat;
+    background: url("../images/All/Vector2.svg") 89% 50% no-repeat, linear-gradient(119.22deg, #8d47d3 16.75%, #5a09ab 121.37%), url("../images/All/Vector1.svg") 79% -6% no-repeat;
 }
 
 @media (max-width: 1280px) {
     .get-vip-ban_1__content {
-        background: url(../images/All/banners/Vector1.svg) 64% -6% no-repeat, url(../images/All/banners/Vector2.svg) 72% 50% no-repeat, linear-gradient(119.22deg, rgba(141, 71, 211, 0.8) 16.75%, rgba(90, 9, 171, 0.8) 121.37%);
+        background: url(../images/All/Vector1.svg) 64% -6% no-repeat, url(../images/All/Vector2.svg) 72% 50% no-repeat, linear-gradient(119.22deg, rgba(141, 71, 211, 0.8) 16.75%, rgba(90, 9, 171, 0.8) 121.37%);
     }
 }
 
@@ -150,34 +150,58 @@ footer {
     background: url("../images/All/banner-girl.png") calc(100% + 90px) 38% no-repeat, linear-gradient(119.22deg, #8d47d3 16.75%, #5a09ab 121.37%);
 }
 
+@media (max-widht: 800px) {
+    .get-vip-ban_1__styling-bg {
+        background: url(../images/All/banner-girl.png) calc(100% + 235px) 38% no-repeat, linear-gradient(119.22deg, #8d47d3 16.75%, #5a09ab 121.37%);
+    }
+}
+
+@media (max-width: 360px) {
+    .get-vip-ban_1__styling-bg {
+        background: url("../images/All/banner-girl.png") 50% calc(0% + 44px) no-repeat, linear-gradient(119.22deg, #8d47d3 16.75%, #5a09ab 121.37%);
+    }
+}
+
 .get-vip-ban_2__content {
-    background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.8) 16.75%, rgba(90, 9, 171, 0.8) 121.37%), url("../images/All/banners/banner-styling2.svg") 19% 50% no-repeat;
+    background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.8) 16.75%, rgba(90, 9, 171, 0.8) 121.37%), url("../images/All/banner-styling2.svg") 19% 50% no-repeat;
 }
 
 .get-vip-ban_2__styling-bg {
-    background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/banners/image57.png") 0% 10% no-repeat;
+    background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/ban-img2.png") 0% 10% no-repeat;
 }
 
 @media (max-width: 1600px) {
     .get-vip-ban_2__styling-bg {
-        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/banners/image57.png") -10% 10% no-repeat;
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/ban-img2.png") -10% 10% no-repeat;
     }
 }
 
 @media (max-width: 1400px) {
     .get-vip-ban_2__styling-bg {
-        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/banners/image57.png") -20% 10% no-repeat;
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url("../images/All/ban-img2.png") -20% 10% no-repeat;
     }
 }
 
 @media (max-width: 620px) {
     .get-vip-ban_2__styling-bg {
-        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url(../images/All/banners/image57.png) 0% 0% no-repeat;
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url(../images/All/ban-img2.png) 0% 0% no-repeat;
     }
 }
 
 @media (max-width: 360px) {
     .get-vip-ban_2__styling-bg {
-        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url(../images/All/banners/image57.png) 90% 5% no-repeat;
+        background: linear-gradient(119.22deg, rgba(211, 71, 139, 0.1) 16.75%, rgba(90, 9, 171, 0.1) 121.37%), url(../images/All/ban-img2.png) 90% 5% no-repeat;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 620px) {
+    .page_profiles__subblock_profiles_3 .ag-ban {
+        background: url(../images/All/mango.png) 100% 50% no-repeat, linear-gradient(109.98deg, #D3478B -21.94%, #5A09AB 145.18%);
+    }
+}
+
+@media (min-width: 450px) and (max-width: 620px) {
+    .page_profiles__subblock_profiles_3 .esc-ban {
+        background: url(../images/All/banan.png) 118% -20%/191px 259px no-repeat, linear-gradient(109.98deg, #360F67 -21.94%, #5A09AB 109.18%);
     }
 }
